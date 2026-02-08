@@ -402,7 +402,7 @@ class ReportGenerator:
 </head>
 <body>
     <div class="header">
-        <h1>🚀 Hybrid RAG System Evaluation Report</h1>
+        <h1>Hybrid RAG System Evaluation Report</h1>
         <p>Generated on {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}</p>
         <p>Total Questions Evaluated: {self.aggregated['total_questions']}</p>
     </div>
@@ -431,7 +431,7 @@ class ReportGenerator:
     </div>
     
     <div class="section">
-        <h2>📊 Performance by Question Type</h2>
+        <h2>Performance by Question Type</h2>
         <table>
             <thead>
                 <tr>
@@ -554,8 +554,8 @@ class ReportGenerator:
         print("REPORT GENERATION COMPLETE!")
         print("="*70)
         print("\nGenerated files:")
-        print("  📄 evaluation_report.pdf  - Visualizations and charts")
-        print("  🌐 evaluation_report.html - Interactive summary")
+        print("  evaluation_report.pdf  - Visualizations and charts")
+        print("  evaluation_report.html - Interactive summary")
         print("="*70 + "\n")
 
 

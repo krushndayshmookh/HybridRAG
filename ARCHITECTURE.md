@@ -228,7 +228,7 @@
 │  ┌──────────────────────────────────────────────────────────────────┐  │
 │  │  REPORT GENERATION                                                │  │
 │  ├──────────────────────────────────────────────────────────────────┤  │
-│  │  • PDF Report: Comprehensive visualizations                       │  │
+│  │  • PDF Report: Detailed visualizations                       │  │
 │  │    - Metric comparison charts                                     │  │
 │  │    - Question type analysis                                       │  │
 │  │    - Score distributions                                          │  │

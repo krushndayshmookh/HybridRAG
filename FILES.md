@@ -1,11 +1,11 @@
 # Project Files Catalog
 
-## 📂 Complete File Structure
+## Complete File Structure
 
 ```text
 HybridRAG/
 │
-├── 🚀 Setup & Configuration Files
+├── Setup & Configuration Files
 │   ├── setup.sh                    # Automated setup script (Unix/Mac)
 │   ├── setup.bat                   # Automated setup script (Windows)
 │   ├── activate.sh                 # Quick activation script (Unix/Mac)
@@ -15,14 +15,14 @@ HybridRAG/
 │   ├── .gitignore                  # Git ignore patterns
 │   └── verify_setup.py             # Setup verification script
 │
-├── 📖 Documentation Files
+├── Documentation Files
 │   ├── README.md                   # Main project documentation
 │   ├── SETUP.md                    # Detailed setup instructions
 │   ├── ARCHITECTURE.md             # System architecture details
 │   ├── SUBMISSION_CHECKLIST.md     # Pre-submission checklist
 │   └── FILES.md                    # This file - project catalog
 │
-├── 🤖 Core RAG System Files
+├── Core RAG System Files
 │   ├── HybridRag.py               # Main RAG system + Streamlit interface
 │   ├── question_generator.py      # Generates 100 evaluation Q&A pairs
 │   ├── evaluation_metrics.py      # Implements MRR, ROUGE-L, NDCG@5
@@ -30,17 +30,17 @@ HybridRAG/
 │   ├── report_generator.py        # Creates PDF/HTML reports
 │   └── run_evaluation.py          # One-click complete evaluation
 │
-├── 📊 Data Files (Pre-generated)
+├── Data Files (Pre-generated)
 │   ├── fixed_urls.json            # 200 fixed Wikipedia URLs
 │   ├── random_urls.json           # 300 random Wikipedia URLs
 │   ├── wiki_chunks.jsonl          # 1,194 preprocessed text chunks
 │   ├── dense.index                # FAISS vector index (cached)
 │   └── embeddings.npy             # Dense embeddings cache
 │
-├── 📋 Assignment Files
+├── Assignment Files
 │   └── question.html              # Assignment requirements document
 │
-└── 📁 Generated Folders (after running)
+└── Generated Folders (after running)
     ├── venv/                      # Python virtual environment
     ├── screenshots/               # System screenshots
     ├── logs/                      # Log files
@@ -52,7 +52,7 @@ HybridRAG/
     └── evaluation_report.html     # HTML interactive dashboard
 ```
 
-## 📄 File Descriptions
+## File Descriptions
 
 ### Setup & Configuration (8 files)
 
@@ -125,7 +125,7 @@ HybridRAG/
 
 #### `SETUP.md`
 
-- **Purpose**: Comprehensive setup guide
+- **Purpose**: Detailed setup guide
 - **Contents**:
   - Prerequisites
   - Automated and manual setup
@@ -211,7 +211,7 @@ HybridRAG/
 
 #### `report_generator.py` (350 lines)
 
-- **Purpose**: Creates comprehensive evaluation reports
+- **Purpose**: Creates detailed evaluation reports
 - **Generates**:
   - **PDF Report** with 7 visualization pages:
     - Metric comparison charts
@@ -318,7 +318,7 @@ HybridRAG/
   - Detailed tables
   - Responsive design
 
-## 📊 File Statistics
+## File Statistics
 
 | Category | Files | Lines of Code | Description |
 | -------- | ----- | ------------- | ----------- |
@@ -329,7 +329,7 @@ HybridRAG/
 | Generated | 5 | - | Evaluation outputs |
 | **Total** | **28** | **~6,000** | Complete project |
 
-## 🚀 Usage Workflow
+## Usage Workflow
 
 ### First-Time Setup
 
@@ -361,7 +361,7 @@ streamlit run HybridRag.py
 python run_evaluation.py
 ```
 
-## 📦 Submission Package
+## Submission Package
 
 When creating submission ZIP, include:
 
@@ -383,7 +383,7 @@ When creating submission ZIP, include:
 
 **Total Size:** ~50-100 MB (including data and models)
 
-## 🔧 Maintenance
+## Maintenance
 
 ### Adding New Features
 
@@ -418,4 +418,4 @@ When creating submission ZIP, include:
 
 **Last Updated**: February 8, 2026  
 **Version**: 1.0  
-**Status**: Ready for submission ✅
+**Status**: Ready for submission

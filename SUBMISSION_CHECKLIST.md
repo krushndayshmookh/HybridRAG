@@ -1,8 +1,8 @@
 # Submission Checklist for Hybrid RAG Assignment
 
-## 📋 Pre-Submission Checklist
+## Pre-Submission Checklist
 
-### ✅ Part 1: Hybrid RAG System (10 Marks)
+### Part 1: Hybrid RAG System (10 Marks)
 
 - [x] **1.1 Dense Vector Retrieval**
   - [x] Sentence Transformer model (all-MiniLM-L6-v2)
@@ -25,7 +25,7 @@
   - [x] Streamlit web interface
   - [x] Displays query, answer, sources, scores, and time
 
-### ✅ Part 2: Automated Evaluation (10 Marks)
+### Part 2: Automated Evaluation (10 Marks)
 
 - [x] **2.1 Question Generation**
   - [x] 100 Q&A pairs generated
@@ -60,7 +60,7 @@
   - [x] Loads questions automatically
   - [x] Runs RAG system
   - [x] Computes all metrics
-  - [x] Generates comprehensive reports
+  - [x] Generates detailed reports
   
 - [x] **2.5 Evaluation Report**
   - [x] Overall performance summary
@@ -69,7 +69,7 @@
   - [x] Visualizations (charts, distributions, heatmaps)
   - [x] Error analysis with failure patterns
 
-## 📦 Required Submission Files
+## Required Submission Files
 
 ### 1. Code Files
 
@@ -119,7 +119,7 @@ The PDF report should include:
 - [ ] **Option A**: Deploy to Streamlit Cloud/Hugging Face Spaces *(Recommended)*
 - [x] **Option B**: Include setup instructions in README *(Already done)*
 
-## 🚀 Pre-Submission Steps
+## Pre-Submission Steps
 
 ### Step 0: Environment Setup (First Time Only)
 
@@ -237,7 +237,7 @@ zip -r Group_X_Hybrid_RAG.zip \
 unzip -l Group_X_Hybrid_RAG.zip
 ```
 
-## ✅ Final Verification
+## Final Verification
 
 Before submitting, verify:
 
@@ -254,33 +254,33 @@ Before submitting, verify:
 - [ ] ZIP file is properly named: `Group_X_Hybrid_RAG.zip`
 - [ ] All files are included in the ZIP
 
-## 📝 Submission Details
+## Submission Details
 
 **Deadline:** February 8, 2026  
 **Format:** One ZIP file per group  
 **Naming:** `Group_<Number>_Hybrid_RAG.zip`
 
-## 🎯 Grading Rubric Alignment
+## Grading Rubric Alignment
 
 | Component | Points | Status |
 | --------- | ------ | ------ |
-| Dense Retrieval | 2 | ✅ Complete |
-| Sparse Retrieval | 2 | ✅ Complete |
-| RRF Implementation | 2 | ✅ Complete |
-| Response Generation | 2 | ✅ Complete |
-| User Interface | 2 | ✅ Complete |
-| **Part 1 Total** | **10** | **✅** |
+| Dense Retrieval | 2 | Complete |
+| Sparse Retrieval | 2 | Complete |
+| RRF Implementation | 2 | Complete |
+| Response Generation | 2 | Complete |
+| User Interface | 2 | Complete |
+| **Part 1 Total** | **10** | **Complete** |
 | | | |
-| Question Generation | - | ✅ Complete |
-| MRR Metric | 2 | ✅ Complete |
-| Custom Metric 1 (ROUGE-L) | 2 | ✅ Complete |
-| Custom Metric 2 (NDCG@5) | 2 | ✅ Complete |
-| Innovative Evaluation | 4 | ✅ Complete |
-| Automated Pipeline | - | ✅ Complete |
-| Report Generation | - | ✅ Complete |
-| **Part 2 Total** | **10** | **✅** |
+| Question Generation | - | Complete |
+| MRR Metric | 2 | Complete |
+| Custom Metric 1 (ROUGE-L) | 2 | Complete |
+| Custom Metric 2 (NDCG@5) | 2 | Complete |
+| Innovative Evaluation | 4 | Complete |
+| Automated Pipeline | - | Complete |
+| Report Generation | - | Complete |
+| **Part 2 Total** | **10** | **Complete** |
 | | | |
-| **Grand Total** | **20** | **✅** |
+| **Grand Total** | **20** | **Complete** |
 
 ## 📞 Support
 

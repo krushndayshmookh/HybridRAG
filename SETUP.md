@@ -369,10 +369,8 @@ If you encounter issues not covered here:
 
 After successful setup:
 
-1. ✅ Run web interface to test basic functionality
-2. ✅ Generate evaluation questions
-3. ✅ Run evaluation pipeline
-4. ✅ Generate reports
-5. ✅ Review results and prepare submission
-
-Good luck! 🚀
+1. Run web interface to test basic functionality
+2. Generate evaluation questions
+3. Run evaluation pipeline
+4. Generate reports
+5. Review results and prepare submission

@@ -116,11 +116,11 @@ def main():
     print_header("EVALUATION COMPLETE!")
     
     print("Generated Files:")
-    print("  📄 evaluation_questions.json     - 100 Q&A pairs")
-    print("  📊 evaluation_results.json       - Detailed results")
-    print("  📊 evaluation_results.csv        - Tabular results")
-    print("  📄 evaluation_report.pdf         - Visualizations")
-    print("  🌐 evaluation_report.html        - Interactive dashboard")
+    print("  evaluation_questions.json     - 100 Q&A pairs")
+    print("  evaluation_results.json       - Detailed results")
+    print("  evaluation_results.csv        - Tabular results")
+    print("  evaluation_report.pdf         - Visualizations")
+    print("  evaluation_report.html        - Interactive dashboard")
     
     print("\nNext Steps:")
     print("  1. Open evaluation_report.html in your browser")

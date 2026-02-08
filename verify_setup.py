@@ -118,7 +118,7 @@ def main():
     all_ok = python_ok and packages_ok and nltk_ok and files_ok
     
     if all_ok:
-        print("\n✅ All checks passed! Your environment is ready.")
+        print("\nAll checks passed! Your environment is ready.")
         print("\nYou can now run:")
         print("  • streamlit run HybridRag.py          (Web interface)")
         print("  • python run_evaluation.py            (Complete evaluation)")
@@ -126,7 +126,7 @@ def main():
         print("  • python evaluation_pipeline.py       (Run evaluation)")
         print("  • python report_generator.py          (Generate reports)")
     else:
-        print("\n⚠️  Some checks failed. Please review the errors above.")
+        print("\n[ERROR]  Some checks failed. Please review the errors above.")
         print("\nTo fix issues:")
         print("  1. Install missing packages: pip install -r requirements.txt")
         print("  2. Download NLTK data: python -c \"import nltk; nltk.download('punkt')\"")

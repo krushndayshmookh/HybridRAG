@@ -1,6 +1,6 @@
 # Hybrid RAG System with Automated Evaluation
 
-A comprehensive Retrieval-Augmented Generation (RAG) system combining dense vector retrieval, sparse keyword retrieval (BM25), and Reciprocal Rank Fusion (RRF) to answer questions from 500 Wikipedia articles. Includes automated evaluation framework with 100 generated questions.
+A Retrieval-Augmented Generation (RAG) system combining dense vector retrieval, sparse keyword retrieval (BM25), and Reciprocal Rank Fusion (RRF) to answer questions from 500 Wikipedia articles. Includes automated evaluation framework with 100 generated questions.
 
 ## Table of Contents
 
@@ -17,34 +17,34 @@ A comprehensive Retrieval-Augmented Generation (RAG) system combining dense vect
 
 ## Overview
 
-This project implements a state-of-the-art hybrid RAG system that:
+This project implements a hybrid RAG system that:
 
 - Combines **dense semantic search** (FAISS + Sentence Transformers) with **sparse keyword search** (BM25)
 - Uses **Reciprocal Rank Fusion (RRF)** to merge retrieval results
 - Generates answers using **Google Flan-T5-base** language model
-- Includes comprehensive evaluation framework with **100 auto-generated Q&A pairs**
+- Includes automated evaluation framework with **100 auto-generated Q&A pairs**
 - Provides **ablation studies** and **error analysis** for system insights
 
 ## Features
 
 ### Part 1: Hybrid RAG System
 
-- ✅ **Dense Vector Retrieval**: Sentence embeddings + FAISS index for semantic search
-- ✅ **Sparse Keyword Retrieval**: BM25 algorithm for lexical matching
-- ✅ **Reciprocal Rank Fusion**: Intelligent combination of both retrieval methods
-- ✅ **LLM Generation**: T5-based answer generation with context summarization
-- ✅ **Web Interface**: Interactive Streamlit app with real-time Q&A
+- **Dense Vector Retrieval**: Sentence embeddings + FAISS index for semantic search
+- **Sparse Keyword Retrieval**: BM25 algorithm for lexical matching
+- **Reciprocal Rank Fusion**: Intelligent combination of both retrieval methods
+- **LLM Generation**: T5-based answer generation with context summarization
+- **Web Interface**: Interactive Streamlit app with real-time Q&A
 
 ### Part 2: Automated Evaluation
 
-- ✅ **Question Generation**: 100 diverse Q&A pairs (factual, comparative, inferential, multi-hop)
-- ✅ **Mandatory Metric**: Mean Reciprocal Rank (MRR) at URL level
-- ✅ **Custom Metric 1**: ROUGE-L for answer quality evaluation
-- ✅ **Custom Metric 2**: NDCG@5 for retrieval ranking quality
-- ✅ **Ablation Study**: Comparison of dense-only, sparse-only, and hybrid methods
-- ✅ **Error Analysis**: Categorization of failures by question type
-- ✅ **Automated Pipeline**: Single-command evaluation execution
-- ✅ **Comprehensive Reports**: PDF visualizations + HTML interactive report
+- **Question Generation**: 100 diverse Q&A pairs (factual, comparative, inferential, multi-hop)
+- **Mandatory Metric**: Mean Reciprocal Rank (MRR) at URL level
+- **Custom Metric 1**: ROUGE-L for answer quality evaluation
+- **Custom Metric 2**: NDCG@5 for retrieval ranking quality
+- **Ablation Study**: Comparison of dense-only, sparse-only, and hybrid methods
+- **Error Analysis**: Categorization of failures by question type
+- **Automated Pipeline**: Single-command evaluation execution
+- **Report Generation**: PDF visualizations + HTML interactive report
 
 ## Architecture
 
@@ -111,11 +111,11 @@ setup.bat
 
 The setup script will automatically:
 
-1. ✅ Check Python version (requires 3.8+)
-2. ✅ Create virtual environment
-3. ✅ Install all dependencies
-4. ✅ Download NLTK data
-5. ✅ Set up project structure
+1. Check Python version (requires 3.8+)
+2. Create virtual environment
+3. Install all dependencies
+4. Download NLTK data
+5. Set up project structure
 
 **That's it!** Your environment is ready to use.
 
@@ -174,7 +174,7 @@ To deactivate: `deactivate`
 # 1. Generate 100 evaluation questions (if not exists)
 # 2. Run evaluation on all questions
 # 3. Perform ablation study and error analysis
-# 4. Generate comprehensive reports
+# 4. Generate detailed reports
 
 python evaluation_pipeline.py
 ```
@@ -239,7 +239,7 @@ python report_generator.py
 
 **Output Files:**
 
-- `evaluation_report.pdf`: Comprehensive visualizations
+- `evaluation_report.pdf`: Detailed visualizations
 - `evaluation_report.html`: Interactive summary dashboard
 
 ### 4. Run Interactive Web App
@@ -446,21 +446,21 @@ This implementation fully satisfies all assignment requirements:
 
 ### Part 1: Hybrid RAG System (10 Marks)
 
-- ✅ Dense vector retrieval with FAISS
-- ✅ Sparse keyword retrieval with BM25
-- ✅ Reciprocal Rank Fusion (k=60)
-- ✅ LLM-based response generation
-- ✅ Streamlit web interface
+- Dense vector retrieval with FAISS
+- Sparse keyword retrieval with BM25
+- Reciprocal Rank Fusion (k=60)
+- LLM-based response generation
+- Streamlit web interface
 
 ### Part 2: Automated Evaluation (10 Marks)
 
-- ✅ 100 auto-generated Q&A pairs (2.1)
-- ✅ MRR at URL level - Mandatory (2.2.1 - 2 marks)
-- ✅ ROUGE-L - Custom Metric 1 (2.2.2 - 2 marks)
-- ✅ NDCG@5 - Custom Metric 2 (2.2.2 - 2 marks)
-- ✅ Ablation study + Error analysis (2.3 - 4 marks)
-- ✅ Automated pipeline (2.4)
-- ✅ Comprehensive reports (2.5)
+- 100 auto-generated Q&A pairs (2.1)
+- MRR at URL level - Mandatory (2.2.1 - 2 marks)
+- ROUGE-L - Custom Metric 1 (2.2.2 - 2 marks)
+- NDCG@5 - Custom Metric 2 (2.2.2 - 2 marks)
+- Ablation study + Error analysis (2.3 - 4 marks)
+- Automated pipeline (2.4)
+- Report generation (2.5)
 
 ## References
 
