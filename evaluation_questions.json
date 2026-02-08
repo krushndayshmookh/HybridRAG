@@ -1,0 +1,962 @@
+[
+  {
+    "question_id": 1,
+    "question": "what place was the high roller constructed in",
+    "ground_truth": "las vegas",
+    "question_type": "factual",
+    "source_url": "https://en.wikipedia.org/wiki/High_Roller_(Stratosphere)",
+    "source_chunk_id": "e36f60d9-1a05-40c7-b2e8-8fe5dd072006",
+    "title": "High Roller (Stratosphere)"
+  },
+  {
+    "question_id": 2,
+    "question": "where joe appears rolling across the ground in a parody of the 1984-1993 tristar pictures logo?",
+    "ground_truth": "in the beginning of the episode",
+    "question_type": "factual",
+    "source_url": "https://en.wikipedia.org/wiki/Petergeist",
+    "source_chunk_id": "08a3ab0f-61af-42cc-ac94-16c29113a81a",
+    "title": "Petergeist"
+  },
+  {
+    "question_id": 3,
+    "question": "What is adobe bridge software called?",
+    "ground_truth": "digital file manager",
+    "question_type": "factual",
+    "source_url": "https://en.wikipedia.org/wiki/Adobe_Bridge",
+    "source_chunk_id": "7ff4da3a-d2c7-4b95-ae30-3d2e1762033b",
+    "title": "Adobe Bridge"
+  },
+  {
+    "question_id": 4,
+    "question": "what will the host be responsible for?",
+    "ground_truth": "select a region with a range of suitable open-water diving sites including alternative sites in case of a contingency such as rough weather",
+    "question_type": "factual",
+    "source_url": "https://en.wikipedia.org/wiki/Underwater_photography_(sport)",
+    "source_chunk_id": "6c9dd1c0-dc7d-4cef-a330-ba47045fa56d",
+    "title": "Underwater photography (sport)"
+  },
+  {
+    "question_id": 5,
+    "question": "What was the name of the first episode of the adventures of don quick?",
+    "ground_truth": "the adventures of don quick",
+    "question_type": "factual",
+    "source_url": "https://en.wikipedia.org/wiki/The_Adventures_of_Don_Quick",
+    "source_chunk_id": "a951f393-1a18-4de1-be6a-cbb9aa275f49",
+    "title": "The Adventures of Don Quick"
+  },
+  {
+    "question_id": 6,
+    "question": "What was the height of the auditorium?",
+    "ground_truth": "71 foot 22",
+    "question_type": "factual",
+    "source_url": "https://en.wikipedia.org/wiki/Grauman%27s_Chinese_Theatre",
+    "source_chunk_id": "06aed350-4251-40c6-9507-fa82e456a1f5",
+    "title": "Grauman's Chinese Theatre"
+  },
+  {
+    "question_id": 7,
+    "question": "he' the greatest dancer",
+    "ground_truth": "is a song by sister sledge",
+    "question_type": "factual",
+    "source_url": "https://en.wikipedia.org/wiki/He%27s_the_Greatest_Dancer",
+    "source_chunk_id": "95063bd5-57eb-4b07-94e2-106ebc952b89",
+    "title": "He's the Greatest Dancer"
+  },
+  {
+    "question_id": 8,
+    "question": "What did newton disagree about?",
+    "ground_truth": "the form of the path of a body falling from a height",
+    "question_type": "factual",
+    "source_url": "https://en.wikipedia.org/wiki/Early_life_of_Isaac_Newton",
+    "source_chunk_id": "1e77bc60-de4c-4d94-8aee-e60561aaa556",
+    "title": "Early life of Isaac Newton"
+  },
+  {
+    "question_id": 9,
+    "question": "In what movie did han solo perform a role?",
+    "ground_truth": "star wars",
+    "question_type": "factual",
+    "source_url": "https://en.wikipedia.org/wiki/Carbonite,_Inc.",
+    "source_chunk_id": "06dd69e5-335d-4c60-9548-7c899bde9f7e",
+    "title": "Carbonite, Inc."
+  },
+  {
+    "question_id": 10,
+    "question": "How much money is spent in a movie ticket?",
+    "ground_truth": "unanswerable",
+    "question_type": "factual",
+    "source_url": "https://en.wikipedia.org/wiki/National_Capital_Trolley_Museum",
+    "source_chunk_id": "ba66de71-409b-46f6-8c36-ff653e8db0ef",
+    "title": "National Capital Trolley Museum"
+  },
+  {
+    "question_id": 11,
+    "question": "When did the waterways and rivers become more polluted?",
+    "ground_truth": "[iii]",
+    "question_type": "factual",
+    "source_url": "https://en.wikipedia.org/wiki/Soap_substitute",
+    "source_chunk_id": "a4bf8ea3-390f-42e7-95a7-c4fb93ba1b16",
+    "title": "Soap substitute"
+  },
+  {
+    "question_id": 12,
+    "question": "h",
+    "ground_truth": "What is the name of the song that the narrator is discussing ?",
+    "question_type": "factual",
+    "source_url": "https://en.wikipedia.org/wiki/Beso_(song)",
+    "source_chunk_id": "01012e3d-7d46-4942-8555-141fac038eb6",
+    "title": "Beso (song)"
+  },
+  {
+    "question_id": 13,
+    "question": "sofr",
+    "ground_truth": "financial event affecting interest rates",
+    "question_type": "factual",
+    "source_url": "https://en.wikipedia.org/wiki/September_2019_events_in_the_U.S._repo_market",
+    "source_chunk_id": "f3cbca94-92b4-4f9a-a246-23ccc241f97f",
+    "title": "September 2019 events in the U.S. repo market"
+  },
+  {
+    "question_id": 14,
+    "question": "sofr",
+    "ground_truth": "financial event affecting interest rates",
+    "question_type": "factual",
+    "source_url": "https://en.wikipedia.org/wiki/September_2019_events_in_the_U.S._repo_market",
+    "source_chunk_id": "f3cbca94-92b4-4f9a-a246-23ccc241f97f",
+    "title": "September 2019 events in the U.S. repo market"
+  },
+  {
+    "question_id": 15,
+    "question": "who is daniel robinson married to?",
+    "ground_truth": "sarah robinson",
+    "question_type": "factual",
+    "source_url": "https://en.wikipedia.org/wiki/Nancy_Segal",
+    "source_chunk_id": "938eabad-8e36-4726-b394-235864c788e8",
+    "title": "Nancy Segal"
+  },
+  {
+    "question_id": 16,
+    "question": "What is the name of a zoo?",
+    "ground_truth": "epbc act",
+    "question_type": "factual",
+    "source_url": "https://en.wikipedia.org/wiki/Grey_nurse_shark_conservation",
+    "source_chunk_id": "abd61b12-5ac6-465b-96b7-b1c2fd908700",
+    "title": "Grey nurse shark conservation"
+  },
+  {
+    "question_id": 17,
+    "question": "what was the first steel roller coaster constructed in the world",
+    "ground_truth": "steel rollercoaster at stratosphere tower",
+    "question_type": "factual",
+    "source_url": "https://en.wikipedia.org/wiki/High_Roller_(Stratosphere)",
+    "source_chunk_id": "e36f60d9-1a05-40c7-b2e8-8fe5dd072006",
+    "title": "High Roller (Stratosphere)"
+  },
+  {
+    "question_id": 18,
+    "question": "harold lloyd",
+    "ground_truth": "silent films are excerpted and displayed continuously in a small theater",
+    "question_type": "factual",
+    "source_url": "https://en.wikipedia.org/wiki/National_Capital_Trolley_Museum",
+    "source_chunk_id": "ba66de71-409b-46f6-8c36-ff653e8db0ef",
+    "title": "National Capital Trolley Museum"
+  },
+  {
+    "question_id": 19,
+    "question": "Who was the first person to be allowed to sail aboard a ship without a ship?",
+    "ground_truth": "mcclure",
+    "question_type": "factual",
+    "source_url": "https://en.wikipedia.org/wiki/McClure_Arctic_expedition",
+    "source_chunk_id": "bc94a0f4-b1cd-429e-9bea-b54353ad32a7",
+    "title": "McClure Arctic expedition"
+  },
+  {
+    "question_id": 20,
+    "question": "where was the first album to be released?",
+    "ground_truth": "the new york times",
+    "question_type": "factual",
+    "source_url": "https://en.wikipedia.org/wiki/Beso_(song)",
+    "source_chunk_id": "01012e3d-7d46-4942-8555-141fac038eb6",
+    "title": "Beso (song)"
+  },
+  {
+    "question_id": 21,
+    "question": "What do economists believe could happen in the repo market?",
+    "ground_truth": "any sustained disruption",
+    "question_type": "factual",
+    "source_url": "https://en.wikipedia.org/wiki/September_2019_events_in_the_U.S._repo_market",
+    "source_chunk_id": "3326ac22-80a9-420d-9e6f-6dd062c16094",
+    "title": "September 2019 events in the U.S. repo market"
+  },
+  {
+    "question_id": 22,
+    "question": "What does the \"a1234\" have?",
+    "ground_truth": "a white background with black signs",
+    "question_type": "factual",
+    "source_url": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Benin",
+    "source_chunk_id": "8ef4fee1-b4a9-47e6-be65-3167cbaedd49",
+    "title": "Vehicle registration plates of Benin"
+  },
+  {
+    "question_id": 23,
+    "question": "how does carbonite backup",
+    "ground_truth": "integrates with windows explorer",
+    "question_type": "factual",
+    "source_url": "https://en.wikipedia.org/wiki/Carbonite,_Inc.",
+    "source_chunk_id": "6d577fac-e0b7-4fd9-b3ea-e020d999f828",
+    "title": "Carbonite, Inc."
+  },
+  {
+    "question_id": 24,
+    "question": "",
+    "ground_truth": "What may be the reason for the dissenting senators encouraging the government to ignore the recommendations of the majority report ?",
+    "question_type": "factual",
+    "source_url": "https://en.wikipedia.org/wiki/Sustainable_Development_Goals_and_Australia",
+    "source_chunk_id": "21573b67-c582-40e7-acb2-5443b705a1f4",
+    "title": "Sustainable Development Goals and Australia"
+  },
+  {
+    "question_id": 25,
+    "question": "Electrostatic Accelerator",
+    "ground_truth": "the first was a vertical folded tandem electrostatic accelerator",
+    "question_type": "factual",
+    "source_url": "https://en.wikipedia.org/wiki/Denys_Wilkinson_Building",
+    "source_chunk_id": "29be0e41-41e5-42ed-8c5d-166e8db0260d",
+    "title": "Denys Wilkinson Building"
+  },
+  {
+    "question_id": 26,
+    "question": "How long had it been since the sdg had approved the goals ?",
+    "ground_truth": "It had been a year .",
+    "question_type": "factual",
+    "source_url": "https://en.wikipedia.org/wiki/Sustainable_Development_Goals_and_Australia",
+    "source_chunk_id": "21573b67-c582-40e7-acb2-5443b705a1f4",
+    "title": "Sustainable Development Goals and Australia"
+  },
+  {
+    "question_id": 27,
+    "question": "What was the name of the theater the auditorium was based on?",
+    "ground_truth": "a gigantic shrine",
+    "question_type": "factual",
+    "source_url": "https://en.wikipedia.org/wiki/Grauman%27s_Chinese_Theatre",
+    "source_chunk_id": "06aed350-4251-40c6-9507-fa82e456a1f5",
+    "title": "Grauman's Chinese Theatre"
+  },
+  {
+    "question_id": 28,
+    "question": "the gravitational force causes what to do with gravity?",
+    "ground_truth": "fall to the earth",
+    "question_type": "factual",
+    "source_url": "https://en.wikipedia.org/wiki/Early_life_of_Isaac_Newton",
+    "source_chunk_id": "17727cd5-58a4-4e13-a36e-9354dc942cd4",
+    "title": "Early life of Isaac Newton"
+  },
+  {
+    "question_id": 29,
+    "question": "Who released their second single never too late?",
+    "ground_truth": "the answer",
+    "question_type": "factual",
+    "source_url": "https://en.wikipedia.org/wiki/The_Answer_(band)",
+    "source_chunk_id": "86314200-0867-451f-9ff6-79843f27797c",
+    "title": "The Answer (band)"
+  },
+  {
+    "question_id": 30,
+    "question": "federal interest rates",
+    "ground_truth": "measure of the interest rate on federal funds",
+    "question_type": "factual",
+    "source_url": "https://en.wikipedia.org/wiki/September_2019_events_in_the_U.S._repo_market",
+    "source_chunk_id": "6d0a5c6c-ff35-468f-91c8-3995857c7b54",
+    "title": "September 2019 events in the U.S. repo market"
+  },
+  {
+    "question_id": 31,
+    "question": "who received a patent from the crown in april 1675?",
+    "ground_truth": "he",
+    "question_type": "factual",
+    "source_url": "https://en.wikipedia.org/wiki/Early_life_of_Isaac_Newton",
+    "source_chunk_id": "4f5224b1-50b8-4e2e-8cb5-07f46b16b386",
+    "title": "Early life of Isaac Newton"
+  },
+  {
+    "question_id": 32,
+    "question": "What do the short and short scales refer to ?",
+    "ground_truth": "(iii)",
+    "question_type": "factual",
+    "source_url": "https://en.wikipedia.org/wiki/Billion",
+    "source_chunk_id": "3525a862-6bc3-4001-bc2d-60d41334861a",
+    "title": "Billion"
+  },
+  {
+    "question_id": 33,
+    "question": "hq 's",
+    "ground_truth": "trash talk",
+    "question_type": "factual",
+    "source_url": "https://en.wikipedia.org/wiki/Trash_talk",
+    "source_chunk_id": "9cfebecb-db4e-4ac5-b346-93269c95ffd1",
+    "title": "Trash talk"
+  },
+  {
+    "question_id": 34,
+    "question": "What area of the state of New Jersey was a borough of the township River Vale in?",
+    "ground_truth": "bergen county",
+    "question_type": "factual",
+    "source_url": "https://en.wikipedia.org/wiki/River_Vale,_New_Jersey",
+    "source_chunk_id": "8e2cf961-eb8e-4bca-a628-2cf9b31ccd40",
+    "title": "River Vale, New Jersey"
+  },
+  {
+    "question_id": 35,
+    "question": "if a third strand of dna is introduced and contains adjoining regions able to hybridize with the frayed regions of the pre-existing double-strand",
+    "ground_truth": "branched dna can occur",
+    "question_type": "factual",
+    "source_url": "https://en.wikipedia.org/wiki/DNA",
+    "source_chunk_id": "dfad232a-6b0c-4efe-9af0-f5c2fd041544",
+    "title": "DNA"
+  },
+  {
+    "question_id": 36,
+    "question": "What does dna look like?",
+    "ground_truth": "double-strand",
+    "question_type": "factual",
+    "source_url": "https://en.wikipedia.org/wiki/DNA",
+    "source_chunk_id": "dfad232a-6b0c-4efe-9af0-f5c2fd041544",
+    "title": "DNA"
+  },
+  {
+    "question_id": 37,
+    "question": "What was the fate of the mercenaries?",
+    "ground_truth": "mcclure' two-party escape plan for spring 1853 was viewed by the expedition surgeon as recklessly dangerous",
+    "question_type": "factual",
+    "source_url": "https://en.wikipedia.org/wiki/McClure_Arctic_expedition",
+    "source_chunk_id": "e173f3a9-c23e-4e83-abb0-348acfe869ce",
+    "title": "McClure Arctic expedition"
+  },
+  {
+    "question_id": 38,
+    "question": "the answer released an ep in 2008 called never too late , which contained a track from what album ?",
+    "ground_truth": "rise",
+    "question_type": "factual",
+    "source_url": "https://en.wikipedia.org/wiki/The_Answer_(band)",
+    "source_chunk_id": "dc8c4624-21f1-418c-b5ee-b51e0039349c",
+    "title": "The Answer (band)"
+  },
+  {
+    "question_id": 39,
+    "question": "How does the FDA describe the certification process?",
+    "ground_truth": "there are several important drawbacks and limitations to this certification",
+    "question_type": "factual",
+    "source_url": "https://en.wikipedia.org/wiki/American_Humane_Certified",
+    "source_chunk_id": "60fcea86-aef8-404a-8ebf-de03ea834532",
+    "title": "American Humane Certified"
+  },
+  {
+    "question_id": 40,
+    "question": "How was the path of a body falling from a height compared to the motion of the ea?",
+    "ground_truth": "disagreed",
+    "question_type": "factual",
+    "source_url": "https://en.wikipedia.org/wiki/Early_life_of_Isaac_Newton",
+    "source_chunk_id": "1e77bc60-de4c-4d94-8aee-e60561aaa556",
+    "title": "Early life of Isaac Newton"
+  },
+  {
+    "question_id": 41,
+    "question": "What species of plant does ganoderma zonatum infect?",
+    "ground_truth": "palm",
+    "question_type": "comparative",
+    "source_url": "https://en.wikipedia.org/wiki/Ganoderma_zonatum",
+    "source_chunk_id": "20d881dc-95b2-48b4-8488-2c530c43325d",
+    "title": "Ganoderma zonatum"
+  },
+  {
+    "question_id": 42,
+    "question": "how many days passed between the new york fed announcement and the closing of the federal reserve fund?",
+    "ground_truth": "0",
+    "question_type": "comparative",
+    "source_url": "https://en.wikipedia.org/wiki/September_2019_events_in_the_U.S._repo_market",
+    "source_chunk_id": "0f1f007e-a41c-4076-a7bd-7205e6b85045",
+    "title": "September 2019 events in the U.S. repo market"
+  },
+  {
+    "question_id": 43,
+    "question": "Which age group was larger: married couples or non-families?",
+    "ground_truth": "married couples",
+    "question_type": "comparative",
+    "source_url": "https://en.wikipedia.org/wiki/River_Vale,_New_Jersey",
+    "source_chunk_id": "901fd572-4835-42b3-b773-ef90019c3fa4",
+    "title": "River Vale, New Jersey"
+  },
+  {
+    "question_id": 44,
+    "question": "Who had the worst situation on the iceberg in the first half of the 18th century?",
+    "ground_truth": "the crew",
+    "question_type": "comparative",
+    "source_url": "https://en.wikipedia.org/wiki/McClure_Arctic_expedition",
+    "source_chunk_id": "c50fa1a7-d748-42dd-8843-c0ecf43da314",
+    "title": "McClure Arctic expedition"
+  },
+  {
+    "question_id": 45,
+    "question": "The book was referred to by what name?",
+    "ground_truth": "chemistry",
+    "question_type": "comparative",
+    "source_url": "https://en.wikipedia.org/wiki/Al-Jildaki",
+    "source_chunk_id": "957ac502-24c5-407b-877e-c9978e24d745",
+    "title": "al-Jildaki"
+  },
+  {
+    "question_id": 46,
+    "question": "in which country?",
+    "ground_truth": "spain",
+    "question_type": "comparative",
+    "source_url": "https://en.wikipedia.org/wiki/Beso_(song)",
+    "source_chunk_id": "01012e3d-7d46-4942-8555-141fac038eb6",
+    "title": "Beso (song)"
+  },
+  {
+    "question_id": 47,
+    "question": "What was the most likely cause of a collision between the high roller and the cable train that the high roller was on?",
+    "ground_truth": "the high roller was neither a fas",
+    "question_type": "comparative",
+    "source_url": "https://en.wikipedia.org/wiki/High_Roller_(Stratosphere)",
+    "source_chunk_id": "0882e102-bfe8-48ce-b717-491a827c3cc9",
+    "title": "High Roller (Stratosphere)"
+  },
+  {
+    "question_id": 48,
+    "question": "lithium batteries",
+    "ground_truth": "are potentially faster charging",
+    "question_type": "comparative",
+    "source_url": "https://en.wikipedia.org/wiki/Potassium-ion_battery",
+    "source_chunk_id": "cfb28236-418f-467a-a775-7a3c5ed4ce8a",
+    "title": "Potassium-ion battery"
+  },
+  {
+    "question_id": 49,
+    "question": "nationality",
+    "ground_truth": "burundi",
+    "question_type": "comparative",
+    "source_url": "https://en.wikipedia.org/wiki/Burundian_nationality_law",
+    "source_chunk_id": "e69263d5-854a-411b-95a6-9ad099e8ad9a",
+    "title": "Burundian nationality law"
+  },
+  {
+    "question_id": 50,
+    "question": "what is the most common type of trash talk?",
+    "ground_truth": "(iii).",
+    "question_type": "comparative",
+    "source_url": "https://en.wikipedia.org/wiki/Trash_talk",
+    "source_chunk_id": "8f415ce4-9df4-49e3-b17b-c3b008afecd9",
+    "title": "Trash talk"
+  },
+  {
+    "question_id": 51,
+    "question": "what color was the marble?",
+    "ground_truth": "coral lacquer",
+    "question_type": "comparative",
+    "source_url": "https://en.wikipedia.org/wiki/Grauman%27s_Chinese_Theatre",
+    "source_chunk_id": "06aed350-4251-40c6-9507-fa82e456a1f5",
+    "title": "Grauman's Chinese Theatre"
+  },
+  {
+    "question_id": 52,
+    "question": "economic crisis",
+    "ground_truth": "2008",
+    "question_type": "comparative",
+    "source_url": "https://en.wikipedia.org/wiki/September_2019_events_in_the_U.S._repo_market",
+    "source_chunk_id": "85c936eb-a0fc-441b-919b-42607697852c",
+    "title": "September 2019 events in the U.S. repo market"
+  },
+  {
+    "question_id": 53,
+    "question": "father is having a baby?",
+    "ground_truth": "no",
+    "question_type": "comparative",
+    "source_url": "https://en.wikipedia.org/wiki/A_Ferret_Called_Mickey",
+    "source_chunk_id": "c973250d-07fc-4a85-81c4-84daf9b468e8",
+    "title": "A Ferret Called Mickey"
+  },
+  {
+    "question_id": 54,
+    "question": "o are banks not allowed to lend cash on the repo markets",
+    "ground_truth": "yes",
+    "question_type": "comparative",
+    "source_url": "https://en.wikipedia.org/wiki/September_2019_events_in_the_U.S._repo_market",
+    "source_chunk_id": "06ee73a2-bd26-4c9e-af32-357415eff6bf",
+    "title": "September 2019 events in the U.S. repo market"
+  },
+  {
+    "question_id": 55,
+    "question": "is higher in the passcack valley",
+    "ground_truth": "the enrollment of students",
+    "question_type": "comparative",
+    "source_url": "https://en.wikipedia.org/wiki/River_Vale,_New_Jersey",
+    "source_chunk_id": "e3e83e55-4ac1-4079-a80e-c6fef5e96f73",
+    "title": "River Vale, New Jersey"
+  },
+  {
+    "question_id": 56,
+    "question": "aero in the same way that the avro had covered the aero in the first place",
+    "ground_truth": "they also covered the aerosmith song sweet emotion for a free kerrang! cd",
+    "question_type": "comparative",
+    "source_url": "https://en.wikipedia.org/wiki/The_Answer_(band)",
+    "source_chunk_id": "db5be616-9a8b-4523-84af-df4e8624462e",
+    "title": "The Answer (band)"
+  },
+  {
+    "question_id": 57,
+    "question": "official",
+    "ground_truth": "ren xi fl.",
+    "question_type": "comparative",
+    "source_url": "https://en.wikipedia.org/wiki/Ren_Xi_(Shu_Han)",
+    "source_chunk_id": "47494929-c768-41ff-b133-3d9aeb8c382b",
+    "title": "Ren Xi (Shu Han)"
+  },
+  {
+    "question_id": 58,
+    "question": "arrow air",
+    "ground_truth": "was a passenger and cargo airline",
+    "question_type": "comparative",
+    "source_url": "https://en.wikipedia.org/wiki/Arrow_Air",
+    "source_chunk_id": "136ffe82-4220-4d9d-aade-504e69c3839c",
+    "title": "Arrow Air"
+  },
+  {
+    "question_id": 59,
+    "question": "humane",
+    "ground_truth": "certified",
+    "question_type": "comparative",
+    "source_url": "https://en.wikipedia.org/wiki/American_Humane_Certified",
+    "source_chunk_id": "1169f735-c2f5-4c1d-a72c-4622b718e5a4",
+    "title": "American Humane Certified"
+  },
+  {
+    "question_id": 60,
+    "question": "parliamentary election",
+    "ground_truth": "was held in poland on 25 october 2015",
+    "question_type": "comparative",
+    "source_url": "https://en.wikipedia.org/wiki/2015_Polish_parliamentary_election",
+    "source_chunk_id": "e88f95b9-1553-4ea3-97f2-9f3deb5bbf0e",
+    "title": "2015 Polish parliamentary election"
+  },
+  {
+    "question_id": 61,
+    "question": "The radius of the metal bar corresponds to what distance from the surface of the glass?",
+    "ground_truth": "a slit",
+    "question_type": "inferential",
+    "source_url": "https://en.wikipedia.org/wiki/Ripple_tank",
+    "source_chunk_id": "25f17385-1be8-44ef-bbcd-20761e13c817",
+    "title": "Ripple tank"
+  },
+  {
+    "question_id": 62,
+    "question": "to provide evening classes in painting, drawing and sculpture under the auspices of the italian consulate in cairo as well as the italian cultural centre in cairo are keeping quiet about the institute' nature",
+    "ground_truth": "the institute was founded in the 1930s",
+    "question_type": "inferential",
+    "source_url": "https://en.wikipedia.org/wiki/Leonardo_da_Vinci_Art_Institute",
+    "source_chunk_id": "5d9a0573-a291-4f6b-84b3-7fd3fce02805",
+    "title": "Leonardo da Vinci Art Institute"
+  },
+  {
+    "question_id": 63,
+    "question": "What are the three persons of the triune god?",
+    "ground_truth": "jeremiah 31 35 37 isaiah 54 8 10 . ve",
+    "question_type": "inferential",
+    "source_url": "https://en.wikipedia.org/wiki/Hosea_2",
+    "source_chunk_id": "bac2826c-b512-471c-a1de-93508669ae80",
+    "title": "Hosea 2"
+  },
+  {
+    "question_id": 64,
+    "question": "What is the purpose of a small glass tank of water ?",
+    "ground_truth": "To demonstrate the basic properties of waves .",
+    "question_type": "inferential",
+    "source_url": "https://en.wikipedia.org/wiki/Ripple_tank",
+    "source_chunk_id": "00fef11f-a804-4762-8ac4-00d8bde2a40a",
+    "title": "Ripple tank"
+  },
+  {
+    "question_id": 65,
+    "question": "What are the things that are required of a charter school?",
+    "ground_truth": "to administer state standardized tests",
+    "question_type": "inferential",
+    "source_url": "https://en.wikipedia.org/wiki/Charter_schools_in_North_Carolina",
+    "source_chunk_id": "63c4d33d-99cf-4879-bd07-e1b5ff5208be",
+    "title": "Charter schools in North Carolina"
+  },
+  {
+    "question_id": 66,
+    "question": "nucleobases",
+    "ground_truth": "Attached to each sugar is one of four types of nucleobases or bases",
+    "question_type": "inferential",
+    "source_url": "https://en.wikipedia.org/wiki/DNA",
+    "source_chunk_id": "144f9875-b28e-4183-ba39-8fccddb3e548",
+    "title": "DNA"
+  },
+  {
+    "question_id": 67,
+    "question": "amazon reviews on amazon",
+    "ground_truth": "carbonite",
+    "question_type": "inferential",
+    "source_url": "https://en.wikipedia.org/wiki/Carbonite,_Inc.",
+    "source_chunk_id": "3a9e797b-4e06-48a0-8387-d517f847b7c0",
+    "title": "Carbonite, Inc."
+  },
+  {
+    "question_id": 68,
+    "question": "a top 40",
+    "ground_truth": "is",
+    "question_type": "inferential",
+    "source_url": "https://en.wikipedia.org/wiki/Hit_%27Em_Up_Style_(Oops!)",
+    "source_chunk_id": "7b041455-17d2-4d1a-9418-e8e54bb99fcc",
+    "title": "Hit 'Em Up Style (Oops!)"
+  },
+  {
+    "question_id": 69,
+    "question": "humane treatment",
+    "ground_truth": "certified program",
+    "question_type": "inferential",
+    "source_url": "https://en.wikipedia.org/wiki/American_Humane_Certified",
+    "source_chunk_id": "1169f735-c2f5-4c1d-a72c-4622b718e5a4",
+    "title": "American Humane Certified"
+  },
+  {
+    "question_id": 70,
+    "question": "students at trinity university",
+    "ground_truth": "Thomas gipps",
+    "question_type": "inferential",
+    "source_url": "https://en.wikipedia.org/wiki/Early_life_of_Isaac_Newton",
+    "source_chunk_id": "9fee45c1-fffe-4477-9248-b0a6f973f8a9",
+    "title": "Early life of Isaac Newton"
+  },
+  {
+    "question_id": 71,
+    "question": "Which of the following is true of carbonite , inc. : carbonite is an American company that offers an online backup service , available to windows and macos users .?",
+    "ground_truth": "It is an American company .",
+    "question_type": "inferential",
+    "source_url": "https://en.wikipedia.org/wiki/Carbonite,_Inc.",
+    "source_chunk_id": "06dd69e5-335d-4c60-9548-7c899bde9f7e",
+    "title": "Carbonite, Inc."
+  },
+  {
+    "question_id": 72,
+    "question": "University of Cambridge he was a professor at?",
+    "ground_truth": "trinity college",
+    "question_type": "inferential",
+    "source_url": "https://en.wikipedia.org/wiki/Early_life_of_Isaac_Newton",
+    "source_chunk_id": "4f5224b1-50b8-4e2e-8cb5-07f46b16b386",
+    "title": "Early life of Isaac Newton"
+  },
+  {
+    "question_id": 73,
+    "question": "What may be the function of na ?",
+    "ground_truth": "it may provide nutrients and it may act as a buffer to recruit or titrate ions or antibiotics",
+    "question_type": "inferential",
+    "source_url": "https://en.wikipedia.org/wiki/DNA",
+    "source_chunk_id": "3ec22f0e-6b29-43e1-9c38-4e5415673ce0",
+    "title": "DNA"
+  },
+  {
+    "question_id": 74,
+    "question": "sailed out",
+    "ground_truth": "intrepid",
+    "question_type": "inferential",
+    "source_url": "https://en.wikipedia.org/wiki/McClure_Arctic_expedition",
+    "source_chunk_id": "33a509b9-0ae5-4fec-83ac-8e93f8441c25",
+    "title": "McClure Arctic expedition"
+  },
+  {
+    "question_id": 75,
+    "question": "how",
+    "ground_truth": "there has been a significant reduction in phosphate use in detergent products",
+    "question_type": "inferential",
+    "source_url": "https://en.wikipedia.org/wiki/Soap_substitute",
+    "source_chunk_id": "bf434b55-76fd-42f4-9e8f-6ca085b2545c",
+    "title": "Soap substitute"
+  },
+  {
+    "question_id": 76,
+    "question": "Who is a performer that hires a spiritual medium ?",
+    "ground_truth": "Bruce",
+    "question_type": "inferential",
+    "source_url": "https://en.wikipedia.org/wiki/Petergeist",
+    "source_chunk_id": "42ce6ef9-7595-4f19-ae78-67ef90ad9aa6",
+    "title": "Petergeist"
+  },
+  {
+    "question_id": 77,
+    "question": "What was the last railway line that was running to London?",
+    "ground_truth": "the li",
+    "question_type": "inferential",
+    "source_url": "https://en.wikipedia.org/wiki/Hadleigh_Railway",
+    "source_chunk_id": "18a7f6af-9478-4bfb-90f7-7815c3ac50e6",
+    "title": "Hadleigh Railway"
+  },
+  {
+    "question_id": 78,
+    "question": "in 3d visualization numerical approximation of diffraction pattern from a slit",
+    "ground_truth": "of width equal to five times the wavelength of an incident plane wave",
+    "question_type": "inferential",
+    "source_url": "https://en.wikipedia.org/wiki/Ripple_tank",
+    "source_chunk_id": "25f17385-1be8-44ef-bbcd-20761e13c817",
+    "title": "Ripple tank"
+  },
+  {
+    "question_id": 79,
+    "question": "What can trash talk be used to do?",
+    "ground_truth": "intimidate the opposition",
+    "question_type": "inferential",
+    "source_url": "https://en.wikipedia.org/wiki/Trash_talk",
+    "source_chunk_id": "9cfebecb-db4e-4ac5-b346-93269c95ffd1",
+    "title": "Trash talk"
+  },
+  {
+    "question_id": 80,
+    "question": "wind power generation",
+    "ground_truth": "renewable energy",
+    "question_type": "inferential",
+    "source_url": "https://en.wikipedia.org/wiki/Maharashtra_Energy_Development_Agency",
+    "source_chunk_id": "a724b805-848f-4357-bf7d-57f919c99e81",
+    "title": "Maharashtra Energy Development Agency"
+  },
+  {
+    "question_id": 81,
+    "question": "What is the name of the defunct steel rollercoaster at stratosphere tower",
+    "ground_truth": "let it ride high roller",
+    "question_type": "multi-hop",
+    "source_url": "https://en.wikipedia.org/wiki/Underwater_photography_(sport)",
+    "source_chunk_id": [
+      "e36f60d9-1a05-40c7-b2e8-8fe5dd072006",
+      "0882e102-bfe8-48ce-b717-491a827c3cc9"
+    ],
+    "title": "Underwater photography (sport)"
+  },
+  {
+    "question_id": 82,
+    "question": "What was the population of grey nurse shark in 1984?",
+    "ground_truth": "an eastern population in queensland and new south wales wa",
+    "question_type": "multi-hop",
+    "source_url": "https://en.wikipedia.org/wiki/Underwater_photography_(sport)",
+    "source_chunk_id": [
+      "89cebe48-d06c-4884-888e-9a3f29695098",
+      "1ae108b3-6469-4129-8d2a-7da18adb7d98"
+    ],
+    "title": "Underwater photography (sport)"
+  },
+  {
+    "question_id": 83,
+    "question": "what is the name of the host of a diving event?",
+    "ground_truth": "the host shal",
+    "question_type": "multi-hop",
+    "source_url": "https://en.wikipedia.org/wiki/Underwater_photography_(sport)",
+    "source_chunk_id": [
+      "27308f3b-f564-45ac-9937-6680a141497a",
+      "b5d06c57-a5ad-4c22-99c8-22c510e9b1af"
+    ],
+    "title": "Underwater photography (sport)"
+  },
+  {
+    "question_id": 84,
+    "question": "what is the top edge of the card?",
+    "ground_truth": "four",
+    "question_type": "multi-hop",
+    "source_url": "https://en.wikipedia.org/wiki/Underwater_photography_(sport)",
+    "source_chunk_id": [
+      "fe696eec-c9c7-4bef-bcb8-afe6f50d8a71",
+      "e679363d-b068-4c0d-bf10-bee33eb5c930"
+    ],
+    "title": "Underwater photography (sport)"
+  },
+  {
+    "question_id": 85,
+    "question": "What did people believe phosphates from detergents to be a major cause of pollution in lakes and rivers?",
+    "ground_truth": "waterways",
+    "question_type": "multi-hop",
+    "source_url": "https://en.wikipedia.org/wiki/Underwater_photography_(sport)",
+    "source_chunk_id": [
+      "a4bf8ea3-390f-42e7-95a7-c4fb93ba1b16",
+      "713e3c1d-7d8f-4086-b64c-d2e0c186dd84"
+    ],
+    "title": "Underwater photography (sport)"
+  },
+  {
+    "question_id": 86,
+    "question": "Which wave forms the basis of mirror reflection?",
+    "ground_truth": "incident plane wave",
+    "question_type": "multi-hop",
+    "source_url": "https://en.wikipedia.org/wiki/Underwater_photography_(sport)",
+    "source_chunk_id": [
+      "25f17385-1be8-44ef-bbcd-20761e13c817",
+      "a2568e08-692d-4633-b0f7-ff2a61ee873a"
+    ],
+    "title": "Underwater photography (sport)"
+  },
+  {
+    "question_id": 87,
+    "question": "What are the criteria for the american humane certification program?",
+    "ground_truth": "humane treatment of farm animals and zoo animals",
+    "question_type": "multi-hop",
+    "source_url": "https://en.wikipedia.org/wiki/Underwater_photography_(sport)",
+    "source_chunk_id": [
+      "1169f735-c2f5-4c1d-a72c-4622b718e5a4",
+      "60fcea86-aef8-404a-8ebf-de03ea834532"
+    ],
+    "title": "Underwater photography (sport)"
+  },
+  {
+    "question_id": 88,
+    "question": "What is the state's renewable energy project?",
+    "ground_truth": "off-grid",
+    "question_type": "multi-hop",
+    "source_url": "https://en.wikipedia.org/wiki/Underwater_photography_(sport)",
+    "source_chunk_id": [
+      "a724b805-848f-4357-bf7d-57f919c99e81",
+      "78ebbe42-645a-4ffc-8447-664dd99ddff9"
+    ],
+    "title": "Underwater photography (sport)"
+  },
+  {
+    "question_id": 89,
+    "question": "What is carbonite 's nickname?",
+    "ground_truth": "the empire strikes back",
+    "question_type": "multi-hop",
+    "source_url": "https://en.wikipedia.org/wiki/Underwater_photography_(sport)",
+    "source_chunk_id": [
+      "06dd69e5-335d-4c60-9548-7c899bde9f7e",
+      "84b91c65-afc0-4749-9530-2b064471f778"
+    ],
+    "title": "Underwater photography (sport)"
+  },
+  {
+    "question_id": 90,
+    "question": "What kind of tank is the glass tank of water shown in?",
+    "ground_truth": "a simple ripple tank",
+    "question_type": "multi-hop",
+    "source_url": "https://en.wikipedia.org/wiki/Underwater_photography_(sport)",
+    "source_chunk_id": [
+      "00fef11f-a804-4762-8ac4-00d8bde2a40a",
+      "a2568e08-692d-4633-b0f7-ff2a61ee873a"
+    ],
+    "title": "Underwater photography (sport)"
+  },
+  {
+    "question_id": 91,
+    "question": "if you take a loan from the new york fed, what is the interest rate for that loan?",
+    "ground_truth": "0",
+    "question_type": "multi-hop",
+    "source_url": "https://en.wikipedia.org/wiki/Underwater_photography_(sport)",
+    "source_chunk_id": [
+      "79bb24ce-5526-4f12-86ed-448231ee47c2",
+      "6d0a5c6c-ff35-468f-91c8-3995857c7b54"
+    ],
+    "title": "Underwater photography (sport)"
+  },
+  {
+    "question_id": 92,
+    "question": "which free zone is defined as the oldest free zone?",
+    "ground_truth": "port of trieste",
+    "question_type": "multi-hop",
+    "source_url": "https://en.wikipedia.org/wiki/Underwater_photography_(sport)",
+    "source_chunk_id": [
+      "c2c1239d-c77a-4ca3-a131-0a830499ec8f",
+      "afc2f5e1-3fa9-4294-b0bf-cfbcd58ec015"
+    ],
+    "title": "Underwater photography (sport)"
+  },
+  {
+    "question_id": 93,
+    "question": "What is the long scale of a billion in many countries?",
+    "ground_truth": "unanswerable",
+    "question_type": "multi-hop",
+    "source_url": "https://en.wikipedia.org/wiki/Underwater_photography_(sport)",
+    "source_chunk_id": [
+      "3525a862-6bc3-4001-bc2d-60d41334861a",
+      "24b5e036-ff56-41ad-b3b6-b02aadeeb714"
+    ],
+    "title": "Underwater photography (sport)"
+  },
+  {
+    "question_id": 94,
+    "question": "What was the final result of the first attempt to remove the helium from the helium",
+    "ground_truth": "spark discharge",
+    "question_type": "multi-hop",
+    "source_url": "https://en.wikipedia.org/wiki/Underwater_photography_(sport)",
+    "source_chunk_id": [
+      "3e6fd638-263a-41a8-b5db-6844324b869a",
+      "29be0e41-41e5-42ed-8c5d-166e8db0260d"
+    ],
+    "title": "Underwater photography (sport)"
+  },
+  {
+    "question_id": 95,
+    "question": "What was the maximum density of the liquid hexafluoride?",
+    "ground_truth": "a).",
+    "question_type": "multi-hop",
+    "source_url": "https://en.wikipedia.org/wiki/Underwater_photography_(sport)",
+    "source_chunk_id": [
+      "3e6fd638-263a-41a8-b5db-6844324b869a",
+      "29be0e41-41e5-42ed-8c5d-166e8db0260d"
+    ],
+    "title": "Underwater photography (sport)"
+  },
+  {
+    "question_id": 96,
+    "question": "what is the main concern about humane certification",
+    "ground_truth": "the farms do not have to allow animals to express normal behaviors",
+    "question_type": "multi-hop",
+    "source_url": "https://en.wikipedia.org/wiki/Underwater_photography_(sport)",
+    "source_chunk_id": [
+      "60fcea86-aef8-404a-8ebf-de03ea834532",
+      "1169f735-c2f5-4c1d-a72c-4622b718e5a4"
+    ],
+    "title": "Underwater photography (sport)"
+  },
+  {
+    "question_id": 97,
+    "question": "What type of material is the dna struc made of?",
+    "ground_truth": "dna",
+    "question_type": "multi-hop",
+    "source_url": "https://en.wikipedia.org/wiki/Underwater_photography_(sport)",
+    "source_chunk_id": [
+      "451bf5fa-0169-4446-98ee-a42115c42778",
+      "66f66969-1f85-405f-b6c3-ee6c9eacc95c"
+    ],
+    "title": "Underwater photography (sport)"
+  },
+  {
+    "question_id": 98,
+    "question": "What was the earliest recorded death?",
+    "ground_truth": "franklin",
+    "question_type": "multi-hop",
+    "source_url": "https://en.wikipedia.org/wiki/Underwater_photography_(sport)",
+    "source_chunk_id": [
+      "f6135568-96db-4fcc-a1fc-3b0bf313a247",
+      "bc94a0f4-b1cd-429e-9bea-b54353ad32a7"
+    ],
+    "title": "Underwater photography (sport)"
+  },
+  {
+    "question_id": 99,
+    "question": "what is the point value of the card?",
+    "ground_truth": "between 0 and 9",
+    "question_type": "multi-hop",
+    "source_url": "https://en.wikipedia.org/wiki/Underwater_photography_(sport)",
+    "source_chunk_id": [
+      "fe696eec-c9c7-4bef-bcb8-afe6f50d8a71",
+      "e679363d-b068-4c0d-bf10-bee33eb5c930"
+    ],
+    "title": "Underwater photography (sport)"
+  },
+  {
+    "question_id": 100,
+    "question": "Who has made a commitment to the installation of off-grid renewable energy projects in the state?",
+    "ground_truth": "meda",
+    "question_type": "multi-hop",
+    "source_url": "https://en.wikipedia.org/wiki/Underwater_photography_(sport)",
+    "source_chunk_id": [
+      "a724b805-848f-4357-bf7d-57f919c99e81",
+      "78ebbe42-645a-4ffc-8447-664dd99ddff9"
+    ],
+    "title": "Underwater photography (sport)"
+  }
+]
