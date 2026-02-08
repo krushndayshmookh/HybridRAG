@@ -85,10 +85,10 @@ venv.bak/
 .DS_Store
 
 # Project specific
-logs/
-screenshots/
-outputs/
-*.log
+# logs/
+# screenshots/
+# outputs/
+# *.log
 
 # Large model files (optional - comment out if you want to include these)
 # dense.index
