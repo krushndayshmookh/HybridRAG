@@ -477,7 +477,3 @@ Created for Assignment 2 - Hybrid RAG System with Automated Evaluation
 ## License
 
 This project is for educational purposes.
-
----
-
-**For questions or issues, please refer to the assignment guidelines or raise clarifications by the deadline.**
