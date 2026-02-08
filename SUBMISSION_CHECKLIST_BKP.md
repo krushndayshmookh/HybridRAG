@@ -269,7 +269,7 @@ All submission files verified:
 
 ```bash
 # Create the submission package
-zip -r Group_X_Hybrid_RAG.zip \
+zip -r Group_39_Hybrid_RAG.zip \
   HybridRag.py \
   question_generator.py \
   evaluation_metrics.py \
@@ -292,7 +292,7 @@ zip -r Group_X_Hybrid_RAG.zip \
   screenshots/
 
 # Verify ZIP contents
-unzip -l Group_X_Hybrid_RAG.zip
+unzip -l Group_39_Hybrid_RAG.zip
 ```
 
 ## Final Verification
