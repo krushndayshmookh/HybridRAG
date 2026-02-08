@@ -4,7 +4,7 @@
 
 if [ -d "venv" ]; then
     source venv/bin/activate
-    echo "✓ Virtual environment activated"
+    echo "Activate Virtual environment with: source venv/bin/activate"
     echo ""
     echo "Available commands:"
     echo "  streamlit run HybridRag.py       - Run web interface"
@@ -14,6 +14,6 @@ if [ -d "venv" ]; then
     echo "  python report_generator.py       - Generate reports"
     echo ""
 else
-    echo "✗ Virtual environment not found!"
+    echo "Virtual environment not found!"
     echo "Please run: ./setup.sh"
 fi

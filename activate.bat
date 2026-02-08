@@ -3,8 +3,7 @@ REM Quick activation script for Windows
 REM Usage: activate.bat
 
 if exist "venv\" (
-    call venv\Scripts\activate.bat
-    echo ✓ Virtual environment activated
+    echo Activate Virtual environment with: venv\Scripts\activate.bat
     echo.
     echo Available commands:
     echo   streamlit run HybridRag.py       - Run web interface
@@ -14,7 +13,7 @@ if exist "venv\" (
     echo   python report_generator.py       - Generate reports
     echo.
 ) else (
-    echo ✗ Virtual environment not found!
+    echo Virtual environment not found!
     echo Please run: setup.bat
     pause
 )
