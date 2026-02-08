@@ -468,40 +468,121 @@ def setup_backend():
     rrf = RRF(dense, sparse)
     generator = load_generator()
 
+    # Store in session state for access in UI
+    st.session_state.dense_retriever = dense
+    st.session_state.sparse_retriever = sparse
+    st.session_state.rrf = rrf
+    st.session_state.generator = generator
+    
     st.session_state.backend_ready = True
     print("Backend is ready.")
 
 setup_backend()
 
 st.set_page_config(page_title="RAG QA System", layout="wide")
-st.title("RAG QA System")
+st.title("RAG QA System - Hybrid Retrieval with RRF")
+
+# Sidebar configuration
+with st.sidebar:
+    st.header("Configuration")
+    
+    retrieval_mode = st.selectbox(
+        "Retrieval Mode",
+        ["Hybrid (Dense + Sparse)", "Dense Only", "Sparse Only"],
+        help="Dense: semantic similarity | Sparse: keyword matching | Hybrid: RRF fusion"
+    )
+    
+    top_k = st.slider(
+        "Top-K (per retriever)",
+        1, 20, 10,
+        help="Number of documents to retrieve from dense and sparse retrievers before fusion"
+    )
+    
+    final_n = st.slider(
+        "Final chunks to display",
+        1, 15, 5,
+        help="Number of chunks to show after RRF fusion"
+    )
+    
+    rrf_k = st.slider(
+        "RRF k parameter",
+        1, 100, 60,
+        help="k value in RRF formula: 1/(k + rank)"
+    )
+    
+    st.divider()
+    st.subheader("About")
+    st.markdown("""
+    **Hybrid RAG System** combines:
+    - **Dense**: Sentence Transformers (semantic)
+    - **Sparse**: BM25 (keyword-based)
+    - **Fusion**: Reciprocal Rank Fusion
+    """)
 
 query = st.text_input("Enter your question:")
-top_n = st.slider("Number of top chunks to use", 1, 10, 5)
 
 if st.session_state.backend_ready:
-    if st.button("Get Answer") and query.strip():
+    if st.button("Get Answer", use_container_width=True) and query.strip():
         print("Retrieving and generating answer...")
         start_time = time.time()
-        top_chunks = rrf.retrieve(query, top_k=10, final_n=top_n)
+        
+        # Get retrievers from session state
+        dense_retriever = st.session_state.dense_retriever
+        sparse_retriever = st.session_state.sparse_retriever
+        rrf = st.session_state.rrf
+        generator = st.session_state.generator
+        
+        # Update RRF k parameter if different
+        if rrf.k != rrf_k:
+            rrf.k = rrf_k
+        
+        # Handle different retrieval modes
+        if retrieval_mode == "Dense Only":
+            top_chunks = dense_retriever.retrieve(query, top_k=top_k)
+            top_chunks = sorted(top_chunks, key=lambda x: x.get("dense_score", 0), reverse=True)[:final_n]
+        elif retrieval_mode == "Sparse Only":
+            top_chunks = sparse_retriever.retrieve(query, top_k=top_k)
+            top_chunks = sorted(top_chunks, key=lambda x: x.get("sparse_score", 0), reverse=True)[:final_n]
+        else:  # Hybrid
+            top_chunks = rrf.retrieve(query, top_k=top_k, final_n=final_n)
+        
+        answer = generator.generate(query, top_chunks)
+        elapsed = time.time() - start_time
+        
         chunks_df = pd.DataFrame([
             {
                 "Chunk Index": c["chunk_index"],
                 "URL": c["url"],
                 "Text": c["text"][:200] + "..." if len(c["text"]) > 200 else c["text"],
-                "Dense Score": c.get("dense_score", 0),
-                "Sparse Score": c.get("sparse_score", 0),
-                "RRF Score": c.get("rrf_score", 0)
+                "Dense Score": round(c.get("dense_score", 0), 4),
+                "Sparse Score": round(c.get("sparse_score", 0), 4),
+                "RRF Score": round(c.get("rrf_score", 0), 4)
             }
             for c in top_chunks
         ])
-        answer = generator.generate(query, top_chunks)
-        elapsed = time.time() - start_time
-
+        
+        # Create columns for display
+        col1, col2 = st.columns([3, 1])
+        
+        with col1:
+            st.subheader("Top Retrieved Chunks")
+            st.dataframe(chunks_df, use_container_width=True)
+        
+        with col2:
+            st.subheader("Info")
+            st.metric("Mode", retrieval_mode.replace(" Only", ""))
+            st.metric("Chunks Retrieved", len(top_chunks))
+            st.metric("Top-K Used", top_k)
+            if "RRF" in retrieval_mode or retrieval_mode == "Hybrid (Dense + Sparse)":
+                st.metric("RRF k", rrf_k)
+        
+        st.divider()
         st.subheader("Generated Answer")
         st.write(answer)
-
-        st.subheader("Top Retrieved Chunks")
-        st.dataframe(chunks_df)
-
-        st.write(f"Response time: {elapsed:.2f} seconds")
+        
+        st.subheader("Metrics")
+        col1, col2 = st.columns(2)
+        with col1:
+            st.metric("Response Time", f"{elapsed:.2f}s")
+        with col2:
+            st.metric("Top Chunk Score", f"{top_chunks[0].get('rrf_score', top_chunks[0].get('dense_score', 0)):.4f}")
