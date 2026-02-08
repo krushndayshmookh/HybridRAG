@@ -234,12 +234,21 @@ class DenseRetriever:
         self.texts = [c["text"] for c in chunks]
 
         self.model = SentenceTransformer(model_name)
-
         if os.path.exists("dense.index") and os.path.exists("embeddings.npy"):
             self.index = faiss.read_index("dense.index")
             self.embeddings = np.load("embeddings.npy")
+
+            # Rebuild index if cached artifacts do not match current chunks.
+            if (
+                self.index.ntotal != len(self.chunks)
+                or self.embeddings.shape[0] != len(self.chunks)
+            ):
+                self._rebuild_index()
             return
-        
+
+        self._rebuild_index()
+
+    def _rebuild_index(self):
         self.embeddings = self.model.encode(
             self.texts,
             normalize_embeddings=True,
@@ -261,6 +270,8 @@ class DenseRetriever:
         scores, indices = self.index.search(query_emb, top_k)
         results = []
         for score, idx in zip(scores[0], indices[0]):
+            if idx < 0 or idx >= len(self.chunks):
+                continue
             chunk = self.chunks[idx].copy()
             chunk["dense_score"] = float(score)  # store score
             results.append(chunk)
